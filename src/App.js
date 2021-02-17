@@ -1,8 +1,13 @@
+import {useReducer} from 'react';
+import {TodoContext} from './Context/TodoContext';
+import {TodoReducer} from './Context/Reducer';
+
 function App() {
+  const [todos,dispatch] = useReducer(TodoReducer,[])
   return (
-    <div className="App">
-      <h1>Todo</h1>
-    </div>
+    <TodoContext.Provider value={{todos,dispatch}}>
+      
+    </TodoContext.Provider>
   );
 }
 
