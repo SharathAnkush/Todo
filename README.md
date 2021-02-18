@@ -1,5 +1,5 @@
-# Todo
-## use the Context 
+# Todo App with Context
+## Context 
  1. createContext()
  1. actions
  1. Reducer
@@ -8,3 +8,5 @@
 1. uuid 
 1. reactstrap
 1. bootstrap
+
+# Completed Todo App
